@@ -1,0 +1,13 @@
+.product-mrp{
+			text-decoration: line-through;
+			opacity: .6;
+			margin-right: 2px;
+}
+
+.hide{
+			display: none;
+}
+
+.show{
+			display: block;
+}

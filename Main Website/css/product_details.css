@@ -1,0 +1,38 @@
+.small-img-group{
+			display: flex;
+			justify-content: space-between;
+}
+
+.small-img-col{
+			flex-basis: 0%;
+			cursor: pointer;
+			border: 2px solid black;
+} 
+
+#main-image-box img {
+			border: 2px solid black;
+			margin-bottom: 15px;
+}
+
+.single-product #size-box{
+			display: block;
+			padding: 5px 10px;
+}
+
+.single-product #quantity-box{
+			width: 50px;
+			height: 40px;
+			padding-left: 10px;
+			font-size: 16px;
+			margin-right: 10px;
+}
+
+.single-product #quantity-box:focus{
+			outline: none;
+}
+
+.buy-btn{
+			background-color: orange;
+			opacity: 1;
+			transition: 0.3s all;
+}
